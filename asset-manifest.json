@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-integration/static/css/main.6ea31f7b.css",
+    "main.js": "/react-integration/static/js/main.2c3fc25b.js",
+    "static/js/787.26dc1c8a.chunk.js": "/react-integration/static/js/787.26dc1c8a.chunk.js",
+    "static/media/banner-bg.jpg": "/react-integration/static/media/banner-bg.ec49e366d5f3953c0c42.jpg",
+    "static/media/revicons.eot": "/react-integration/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/react-integration/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/react-integration/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/row2-img.avif": "/react-integration/static/media/row2-img.fe22a84adf01eac3a4b9.avif",
+    "static/media/logo.svg": "/react-integration/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-integration/index.html",
+    "main.6ea31f7b.css.map": "/react-integration/static/css/main.6ea31f7b.css.map",
+    "main.2c3fc25b.js.map": "/react-integration/static/js/main.2c3fc25b.js.map",
+    "787.26dc1c8a.chunk.js.map": "/react-integration/static/js/787.26dc1c8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ea31f7b.css",
+    "static/js/main.2c3fc25b.js"
+  ]
+}
