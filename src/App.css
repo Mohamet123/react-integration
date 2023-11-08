@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+@media screen and (max-width: 576px) {
+	._u {
+		display: flex;
+    flex-direction: column;
+	}
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +42,196 @@
   to {
     transform: rotate(360deg);
   }
+}
+.vv{
+  display: flex;
+  justify-content: end;
+  margin-left: 500px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+nav.navbar {
+  padding: 10px 0;
+  position: fixed ;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32 ease-in-out;
+}
+nav.navbar.scrolled{
+  padding: 0px 0;
+  background-color:orange;
+  color: black;
+}
+/***Banner*********/
+.banner {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url('./assets/img/banner-bg.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+h1.bb{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style:inherit;
+  font-size:50px;
+  margin-top: -100px;
+}
+
+/*****Srvices**/
+.services button {
+  color: #141313;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.services button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.services button:hover svg {
+  margin-left: 25px;
+}
+
+.row1{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background: none;
+}
+.row2{
+  height: 500px;
+}
+.row2{
+  background-image: url(./assets/img/row2-img.avif);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+}
+.row3{
+  background-image: url(./assets/img/img-row3.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+}
+
+.row4{
+  background-image: url(./assets/img/row4.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  height: 500px;
+}
+.row5{
+  background-image: url(./assets/img/row5.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  height: 500px;
+}
+/*carousel */
+.profile-picture {
+  width: 100px; /* Ajustez la taille de la photo de profil selon vos besoins */
+  height: 100px;
+  border-radius: 50%; /* Rend la photo de profil ronde */
+  object-fit: cover;
+  margin-right: 20px; /* Espace entre la photo de profil et le texte */
+}
+
+/* Styles pour le texte */
+.profile-text {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+
+/*Defile*/
+.defile_1{
+  background-image: url(./assets/img/defile1.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  height: 500px;
+}
+.defile_2{
+  background-image: url(./assets/img/defile2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  
+  height: 500px;
+}
+.defile_3{
+  background-image: url(./assets/img/defile3.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  
+  height: 500px;
+}
+.defile_4{
+  background-image: url(./assets/img/defile4.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  
+  height: 500px;
+}
+
+/****Footer***/
+.section-footer{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  background-color: rgb(123, 221, 221);
+}
+.div2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.icons {
+  height: 40px;
+  width: 50px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icons:hover {
+  color: #0077B5; /* Couleur au survol de la souris (par exemple, bleu pour LinkedIn) */
+  transform: translateY(-5px); /* Déplacer l'icône de 5 pixels vers le haut */
 }
